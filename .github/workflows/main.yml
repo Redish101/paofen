@@ -4,4 +4,5 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - run: tree
+      - run: git clone https://github.com/Redish101/paofen.git .
+      - run: build.sh
