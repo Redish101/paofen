@@ -4,5 +4,5 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - run: git clone https://github.com/Redish101/paofen.git .
+      - uses: actions/checkout@v2
       - run: build.sh
